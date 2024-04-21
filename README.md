@@ -1,23 +1,27 @@
-# TÍTULO DO PROJETO
+# Economicamente
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Trabalho Interdisciplinar: Aplicações Web`
 
-`SEMESTRE`
+`2024.1`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Uma ferramenta educacional projetada para ajudar os usuários a desenvolver habilidades e conhecimentos sólidos em educação financeira. Através de uma interface amigável e intuitiva, nosso site oferece uma variedade de recursos e funcionalidades para promover a compreensão e a prática de conceitos financeiros importantes.
+O projeto é focado em ajudar os usuários a compreender conceitos fundamentais da educação financeira e a aplicá-los em suas vidas diárias de forma prática e eficaz.
+
+
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Ingrid Silva
+* Sara Jessica
+* Iury Oliveira
+* Gustavo Araújo
+* Victor da Silva
 
 ## Orientador
 
-* Nome completo do professor 1
+* Wesley Dias Maciel
 
 ## Instruções de utilização
 
