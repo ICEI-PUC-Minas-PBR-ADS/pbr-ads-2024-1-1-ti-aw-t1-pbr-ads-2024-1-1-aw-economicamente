@@ -28,11 +28,11 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 ### Divisão de Papéis
 
-Ingrid Lorrane - Product Owner e Desenvolvedora.
-Sara Jessica - Scrum Master e Desenvolvedora.
-Gustavo Araújo - Desenvolvedor.
-Victor Silva - Desenvovedor.
-Iury Oliveira - Desenvolvedor.
+- Ingrid Lorrane - Product Owner e Desenvolvedora.
+- Sara Jessica - Scrum Master e Desenvolvedora.
+- Gustavo Araújo - Desenvolvedor.
+- Victor Silva - Desenvovedor.
+- Iury Oliveira - Desenvolvedor.
 
 
 ### Processo
