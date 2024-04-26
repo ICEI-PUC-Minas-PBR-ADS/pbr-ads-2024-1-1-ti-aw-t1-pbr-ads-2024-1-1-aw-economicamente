@@ -8,37 +8,29 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Livia Cartez tem 18 anos, acabou e iniciar seu primeiro emprego. Possui vicio em álcool e se encontra financeiramente descontrolada. Busca por um controle de gasto de maneira que consiga gerir o seu dinheiro e ter uma vida financeira saúdavel.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Diego tem 27 anos, trabalha como caixa de supermercado. Pegou um empretimo e perdeu tudo em apotas devido ao seu vicio em jogos e cassino. Busca quitar suas ívidas e ter uma saúde financeira melhor.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Renata 30 ano, acabou de abrir sua primeira empresa para venda de roupas femininas e sempre foi autonoma. Desja crescer financeiramente e expandir seu negócio, e devido  isso busca métodos de investir seu dinheiro e gerir melhor o que entra e saí na empresa mantendo a vida juridica epessoal dela financeiramente estável.
+
 
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+História do Usuário 1: Como usuário, desejo um aplicativo que forneça educação financeira e orientação de investimento para reduzir o estresse relacionado às minhas finanças e tomar decisões financeiras.
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+História do Usuário 2: Como usuário, desejo um aplicativo que me ajude a economizar tempo ao organizar minhas finanças, oferecendo recursos para pesquisar e orientar meus investimentos.
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+História do Usuário 3: Como usuário, desejo um aplicativo que me forneça orientações simples e práticas sobre como economizar dinheiro no dia a dia, para que eu possa melhorar minha saúde financeira.
+
+História do Usuário 4: Como usuário, desejo um aplicativo que me permita comparar diferentes opções de investimento e entender os riscos associados a cada um, para que eu possa tomar decisões de investimento mais seguras.
+
+História do Usuário 5: Como usuário, desejo um aplicativo que me permita inserir e visualizar facilmente minhas despesas, para que eu possa ter um controle mais eficiente do meu orçamento mensal.
+
+História do Usuário 6: Como usuário, desejo um aplicativo que me envie alertas sobre gastos acima do esperado e me ajude a analisar meus gastos por categoria, para que eu possa identificar onde estou gastando mais e tomar medidas para economizar.
+
 
 ## Requisitos
 
@@ -48,31 +40,24 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001|Permitir que os usuários se autentiquem no site. | ALTA | 
+|RF-002|Possibilitar aos usuários adicionar e remover itens de uma lista de favoritos. | MÉDIA |
+|RF-003|Permitir aos usuários inserir e atualizar valores a serem economizados. | ALTA | 
+|RF-004|Calcular e mostrar aos usuários quanto eles podem economizar com base nos valores inseridos. | ALTA | 
+|RF-006|Fornecer aos usuários informações e sugestões sobre economia e investimento. | BAIXA | 
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| Garantir a segurança dos dados dos usuários, incluindo a conformidade com a LGPD (Lei Geral de Proteção de Dados). | BAIXA | 
+|RNF-002| Garantir que o site seja responsivo e tenha tempos de carregamento rápidos. |  ALTA | 
+|RNF-003| Garantir que o site seja fácil de usar e compreender, mesmo para usuários iniciantes. |  ALTA |
+|RNF-004| Garantir que o site seja confiável e esteja disponível quando os usuários precisarem. |  MÉDIA |
+|RNF-005| Garantir que o site seja compatível com diferentes navegadores e dispositivos. |  MÉDIA |
+|RNF-006| Facilitar a manutenção e atualização do site no futuro. |  ALTA |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
@@ -84,8 +69,3 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |02| Não pode ser desenvolvido um módulo de backend        |
 
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
