@@ -6,6 +6,7 @@
 
 
 https://miro.com/welcomeonboard/N1dpRGxxWUJvUFA1RGluanVlNGJRdGtackNyalhDZENrbTJmMVVqV0xuU1B3WlB0ZWdHWk5lNTRrTWJpQVdwOXwzNDU4NzY0NTg1MDg5Njc2NTMzfDI=?share_link_id=336275516445
+![Fluxo de usuário](https://github.com/ICEI-PUC-Minas-PBR-ADS/pbr-ads-2024-1-1-ti-aw-t1-pbr-ads-2024-1-1-aw-economicamente/blob/main/docs/img/Diagrama%20de%20fluxo.jpg)
 
 
 ## Wireframes
