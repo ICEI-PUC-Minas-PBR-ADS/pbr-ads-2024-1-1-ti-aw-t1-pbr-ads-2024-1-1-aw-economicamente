@@ -15,7 +15,6 @@ O projeto é focado em ajudar os usuários a compreender conceitos fundamentais 
 
 * Ingrid Silva
 * Sara Jessica
-* Iury Oliveira
 * Gustavo Araújo
 * Victor da Silva
 
