@@ -1,0 +1,63 @@
+;Orçamento pessoal mensal;;;;;;;;
+;;;;;;;;;
+;RENDA MENSAL PREVISTA;Renda 1;;R$ 2.500;;PREVISÃO DE DESPESA TOTAL ;(Custo projetado combinado);;R$ 2.060
+;;Renda extra;;R$ 500;;DESPESA TOTAL REAL ;(Custo real combinado);;R$ 2.040
+;;Renda mensal total;;R$ 3.000;;Diferença total das despesas;;;R$ 20
+;RENDA MENSAL REAL;Renda 1;;R$ 2.500;;SALDO PREVISTO;(Renda menos custo previsto);;R$ 940
+;;Renda extra;;R$ 500;;SALDO REAL;(renda menos custo real);;R$ 960
+;;Renda mensal total;;R$ 3.000;;DIFERENÇA DE SALDO (real menos previsto);;;R$ 20
+;;;;;;;;;
+;MORADIA;Custo previsto;Custo Real;Diferença;;ENTRETENIMENTO;Custo previsto;Custo Real;Diferença
+;Hipoteca ou aluguel;R$ 1.500;R$ 1.400;R$ 100;;Vídeos/DVDs;R$ 0;R$ 50;-R$ 50
+;Número do telefone;R$ 60;R$ 100;-R$ 40;;CDs;;;R$ 0
+;Luz;R$ 50;R$ 60;-R$ 10;;Documentário;;;R$ 0
+;Gás;R$ 200;R$ 180;R$ 20;;Shows;;;R$ 0
+;Água e esgoto;;;R$ 0;;Eventos esportivos;;;R$ 0
+;TV a cabo;;;R$ 0;;Teatro;;;R$ 0
+;Coleta de lixo;;;R$ 0;;Outros;;;R$ 0
+;Manutenção ou reparos;;;R$ 0;;Outros;;;R$ 0
+;Suprimentos;;;R$ 0;;Outros;;;R$ 0
+;Outros;;;R$ 0;;Total;R$ 0;R$ 50;-R$ 50
+;Total;R$ 1.810;R$ 1.740;R$ 70;;;;;
+;;;;;;EMPRÉSTIMOS;Custo previsto;Custo Real;Diferença
+;TRANSPORTE;Custo previsto;Custo Real;Diferença;;Pessoal;;;R$ 0
+;Pagamento do veículo;R$ 250;R$ 250;R$ 0;;Estudante;;;R$ 0
+;Transporte público/táxi;;;R$ 0;;Cartão de crédito;;;R$ 0
+;Seguro;;;R$ 0;;Cartão de crédito;;;R$ 0
+;Licenciamento;;;R$ 0;;Cartão de crédito;;;R$ 0
+;Combustível;;;R$ 0;;Outros;;;R$ 0
+;Manutenção;;;R$ 0;;Total;R$ 0;R$ 0;R$ 0
+;Outros;;;R$ 0;;;;;
+;Total;R$ 250;R$ 250;R$ 0;;IMPOSTOS;Custo previsto;Custo Real;Diferença
+;;;;;;Despesas de imposto;;;R$ 0
+;SEGURO;Custo previsto;Custo Real;Diferença;;Impostos do Conselho;;;R$ 0
+;Residencial;;;R$ 0;;IVA/Imposto corporativo;;;R$ 0
+;Saúde;;;R$ 0;;Outros;;;R$ 0
+;Vida;;;R$ 0;;Total;R$ 0;R$ 0;R$ 0
+;Outros;;;R$ 0;;;;;
+;Total;R$ 0;R$ 0;R$ 0;;POUPANÇAS OU INVESTIMENTOS;Custo previsto;Custo Real;Diferença
+;;;;;;Aposentadoria;;;R$ 0
+;COMIDA;Custo previsto;Custo Real;Diferença;;Investimentos;;;R$ 0
+;Comida e bebida;;;R$ 0;;Outros;;;R$ 0
+;Jantar fora;;;R$ 0;;Total;R$ 0;R$ 0;R$ 0
+;Outros;;;R$ 0;;;;;
+;Total;R$ 0;R$ 0;R$ 0;;PRESENTES E DOAÇÕES;Custo previsto;Custo Real;Diferença
+;;;;;;Instituição beneficente 1;;;R$ 0
+;ANIMAIS DE ESTIMAÇÃO;Custo previsto;Custo Real;Diferença;;Instituição beneficente 2;;;R$ 0
+;Alimentação;;;R$ 0;;Instituição beneficente 3;;;R$ 0
+;Médico;;;R$ 0;;Total;R$ 0;R$ 0;R$ 0
+;Banho e tosa;;;R$ 0;;;;;
+;Brinquedos;;;R$ 0;;ASSESSORIA JURÍDICA;Custo previsto;Custo Real;Diferença
+;Outros;;;R$ 0;;Advogado;;;R$ 0
+;Total;R$ 0;R$ 0;R$ 0;;Suporte de manutenção conjugal;;;R$ 0
+;;;;;;Pagamentos em garantia ou julgamento;;;R$ 0
+;CUIDADOS PESSOAIS;Custo previsto;Custo Real;Diferença;;Outros;;;R$ 0
+;Médico;;;R$ 0;;Total;R$ 0;R$ 0;R$ 0
+;Cabelo/unhas;;;R$ 0;;;;;
+;Vestuário;;;R$ 0;;;;;
+;Lavagem a seco;;;R$ 0;;;;;
+;Academia;;;R$ 0;;;;;
+;Impostos ou taxas de organização;;;R$ 0;;;;;
+;Outros;;;R$ 0;;;;;
+;Total;R$ 0;R$ 0;R$ 0;;;;;
+;;;;;;;;;

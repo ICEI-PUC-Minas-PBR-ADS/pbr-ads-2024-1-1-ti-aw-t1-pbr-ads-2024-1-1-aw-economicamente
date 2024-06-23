@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="script.js" defer></script>
+    <title>Perfil do Usuário</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top custom-navbar">
+        <a class="navbar-brand" href="#">
+          <img src="img/image.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" id="sidebarToggle">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="openSidebar">Menu</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <div class="container">
+        <div class="profile-card">
+            <div class="profile-left">
+                <div class="avatar-container">
+                    <img src="img/avatar.png" alt="" class="avatar" id="user-avatar">
+                    <input type="file" id="upload-avatar" style="display:none" accept="image/*" onchange="changeAvatar(event)">
+                    <label for="upload-avatar" class="upload-icon">📷</label>
+                </div>
+                <input type="text" id="nome" disabled>
+            </div>
+            <div class="profile-right">
+                <div class="info">
+                    <p><strong>Email:</strong> <input type="email" id="email" disabled></p>
+                    <p><strong>Senha:</strong> <input type="password" id="senha" disabled><i class="toggle-password" onclick="toggleSenha()">👁️</i></p>
+                    <p><strong>Data de Nascimento:</strong> <input type="date" id="dataNascimento" disabled></p>
+                    <p><strong>CEP:</strong> <input type="text" id="cep" disabled><i class="buscar-cep" onclick="buscarCep()">🔍</i></p>
+                    <p><strong>Número:</strong> <input type="text" id="numero" disabled></p>
+                    <p><strong>UF:</strong> <input type="text" id="uf" disabled></p>
+                    <p><strong>Cidade:</strong> <input type="text" id="cidade" disabled></p>
+                    <p><strong>Logradouro:</strong> <input type="text" id="logradouro" disabled></p>
+                </div>
+                <button id="edit-btn" onclick="editProfile()">Editar Perfil</button>
+                <button id="save-btn" onclick="saveProfile()" style="display:none">Salvar</button>
+                <button onclick="logout()">Sair</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

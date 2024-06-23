@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #007bff;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+.navbar img{
+    width: 40px;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.profile-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    display: flex;
+    width: 800px;
+    max-width: 100%;
+}
+
+.profile-left, .profile-right {
+    flex: 1;
+    padding: 20px;
+}
+
+.profile-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #ddd;
+    background: linear-gradient(to bottom, #007bff, #00aaff);
+    border-radius: 10px 0 0 10px;
+}
+
+.avatar-container {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #007bff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: relative;
+    background: #ffffff; /* Cor de fundo diferente */
+}
+
+.avatar-container .avatar-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #fff; /* Cor de fundo diferente */
+    z-index: 1;
+}
+
+.avatar-container .avatar {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+}
+
+.avatar-container .upload-icon {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: white;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.profile-left input {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+}
+
+.profile-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-right .info p {
+    margin: 10px 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.profile-right .info input {
+    width: calc(100% - 30px);
+    border: none;
+    background: transparent;
+    font-size: 16px;
+}
+
+.toggle-password, .buscar-cep {
+    cursor: pointer;
+    font-size: 1.2em;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.profile-right button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.profile-right button:hover {
+    background-color: #0056b3;
+}
