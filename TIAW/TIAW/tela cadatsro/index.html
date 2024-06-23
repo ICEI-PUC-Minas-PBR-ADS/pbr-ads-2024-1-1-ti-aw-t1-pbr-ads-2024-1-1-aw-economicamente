@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="container">
+        <div class="direito">
+            <img src="img/image.png" alt="logomarca">
+            <h1>Bem vindo de volta!</h1>
+            <h2>Já possui conta?</h2>
+            <button class="btn-login" onclick="changeBackground()">Login</button>
+        </div>
+        <div class="esquerdo">
+            <form id="cadastroForm">
+                <h2 class="titulo-form">Crie sua conta!</h2>
+                <p>Nome:</p>
+                <input type="text" name="nome" required>
+                <p>Email:</p>
+                <input type="email" name="email" required>
+                
+                <div class="input-group">
+                    <div>
+                        <p>Senha:</p>
+                        <div class="senha-container">
+                            <input type="password" name="senha" id="senha" required>
+                            <span class="mostrar-senha" onclick="toggleSenha()">👁️</span>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Data de nascimento:</p>
+                        <input type="date" name="data-nascimento" required>
+                    </div>
+                </div>
+                
+                <div class="input-group">
+                    <div>
+                        <p>CEP:</p>
+                        <div class="cep-container">
+                            <input type="text" name="cep" id="cep" required>
+                            <span class="buscar-cep" onclick="buscarCep()">🔍</span>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Número:</p>
+                        <input type="text" name="numero" required>
+                    </div>
+                </div>
+                
+                <div class="input-group">
+                    <div>
+                        <p>UF:</p>
+                        <input type="text" name="uf" id="uf" required>
+                    </div>
+                    <div>
+                        <p>Cidade:</p>
+                        <input type="text" name="cidade" id="cidade" required>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div>
+                        <p>Logradouro:</p>
+                        <input type="text" name="logradouro" id="logradouro" required>
+                    </div>
+                </div>
+
+                <div class="checkbox-container">
+                    <input type="checkbox" name="termos" required>
+                    <span>Eu aceito os <a href="https://www.gov.br/anpd/pt-br" target="_blank" style="color: #007bff;">Termos de Confiabilidade</a></span>
+                </div>
+                <button type="submit" class="btn-cadastrar">Cadastrar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
