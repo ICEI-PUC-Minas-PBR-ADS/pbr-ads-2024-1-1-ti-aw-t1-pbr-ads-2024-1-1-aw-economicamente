@@ -9,13 +9,42 @@ Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvo
 Exemplos de referências bibliográficas:
 
 
-**[1]** - _ELMASRI, Ramez; NAVATHE, Sham. **Sistemas de banco de dados**. 7. ed. São Paulo: Pearson, c2019. E-book. ISBN 9788543025001._
+**[1]** -  exemplo  :_ELMASRI, Ramez; NAVATHE, Sham. **Sistemas de banco de dados**. 7. ed. São Paulo: Pearson, c2019. E-book. ISBN 9788543025001._
 
-**[2]** - _COPPIN, Ben. **Inteligência artificial**. Rio de Janeiro, RJ: LTC, c2010. E-book. ISBN 978-85-216-2936-8._
+**[2]** - G1 Site Oficial. https://g1.globo.com/
 
-**[3]** - _CORMEN, Thomas H. et al. **Algoritmos: teoria e prática**. Rio de Janeiro, RJ: Elsevier, Campus, c2012. xvi, 926 p. ISBN 9788535236996._
+**[3]** - _ EMBRACON,Blog https://www.embracon.com.br/blog/14-dicas-de-educacao-financeira
 
-**[4]** - _SUTHERLAND, Jeffrey Victor. **Scrum: a arte de fazer o dobro do trabalho na metade do tempo**. 2. ed. rev. São Paulo, SP: Leya, 2016. 236, [4] p. ISBN 9788544104514._
+**[4]** - _ EMBRACON,Blog https://www.embracon.com.br/blog/divida-de-cartao-de-credito-como-sair-dela-e-nao-entrar-mais
 
-**[5]** - _RUSSELL, Stuart J.; NORVIG, Peter. **Inteligência artificial**. Rio de Janeiro: Elsevier, c2013. xxi, 988 p. ISBN 9788535237016._
+**[5]** - _CREDITASEXPONENCIAL,Site https://www.creditas.com/exponencial/divida-cartao-de-credito/
 
+**[6]** - PICPAY. Site Oficial. PicPay, 2024. Disponível em: (https://www.picpay.com/site).
+
+**[7]** -ORGANIZZE. Site Oficial. Organizze, 2024. Disponível em: https://www.organizze.com.br/.
+
+**[8]** -INFOMONEY.Site Oficial. https://www.infomoney.com.br/
+
+**[9]** -REMESSA ONLINE. Como começar a investir. Disponível em: https://www.remessaonline.com.br/blog/como-comecar-a-investir/
+
+**[10]** - SERASA. Aplicativos para controle financeiro: confira. Disponível em: https://www.serasa.com.br/blog/aplicativo-para-controle-financeiro-confira/
+
+**[11]** -IDINHEIRO. App controle financeiro pessoal grátis. Disponível em: https://www.idinheiro.com.br/financaspessoais/app-controle-financeiro-pessoal-gratis/
+
+**[12]** - MEU BOLSO EM DIA. Disponível em: https://plataforma.meubolsoemdia.com.br/>
+
+**[13]** - BTG PACTUAL. Educação financeira: o que é, importância, livros e dicas. Disponível em: https://content.btgpactual.com/blog/financas/educacao-financeira-o-que-e-importancia-livros-e-dicas/
+
+**[14]** -PRAVALER. Educação financeira: qual a importância de saber sobre finanças. Disponível em: https://www.pravaler.com.br/blog/educacao-financeira/educacao-financeira-qual-a-importancia-de-saber-sobre-financas/
+
+**[15]** -E-INVESTIDOR. Disponível em: https://einvestidor.estadao.com.br/
+
+**[16]** -BANCO CENTRAL DO BRASIL. Poupar e investir. Disponível em: https://www.bcb.gov.br/cidadaniafinanceira/poupar_investir/
+
+**[17]** -
+
+**[18]** -
+
+**[19]** -
+
+**[20]** -
