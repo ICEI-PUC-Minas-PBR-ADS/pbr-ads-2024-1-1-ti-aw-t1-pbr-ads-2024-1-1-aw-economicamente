@@ -1,0 +1,86 @@
+/* Custom styles for login form */
+
+/* Container styling */
+.login-container {
+  backdrop-filter: blur(10px); /* Blur background behind the container */
+  background-color: rgba(255, 255, 255, 0.75); /* Semi-transparent white background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+/* Focus effect on form fields */
+.form-control:focus {
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Blue glow */
+  border-color: #007bff; /* Blue border */
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+/* Icon background */
+.input-group-text {
+  background-color: #fff; /* White background */
+  border: none; /* No border */
+}
+
+/* Button hover effect */
+.btn-custom {
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth scaling and shadow */
+}
+
+.btn-custom:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+/* "Forgot password" button */
+.btn-outline-secondary {
+  transition: background-color 0.3s, color 0.3s; /* Smooth background and color change */
+}
+
+.btn-outline-secondary:hover {
+  background-color: #007bff; /* Blue background on hover */
+  color: #fff; /* White text on hover */
+}
+
+/* Animation duration for all animate.css classes */
+.animate__animated {
+  --animate-duration: 0.5s; /* Set animation duration */
+}
+
+/* Animated logo */
+.logo-animate {
+  animation: pulse 3s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.logo-animate:hover {
+  transform: scale(1.1); /* Pulse effect on hover */
+}
+
+/* Animated "Forgot password" button */
+.btn-animated {
+  transition: all 0.3s ease; /* Smooth scaling */
+}
+
+.btn-animated:hover {
+  background-color: #6c757d; /* Dark grey background */
+  color: #fff; /* White text */
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+/* Background image for the entire body */
+body {
+  background: url('image/fundosite.jpeg') no-repeat center center fixed; /* Background image settings */
+  background-size: cover; /* Cover the entire viewport */
+}

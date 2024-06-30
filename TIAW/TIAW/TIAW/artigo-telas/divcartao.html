@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dívidas no cartão</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="shortcut icon" href="image/semfundoecono.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/styleartig.css">
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top custom-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand me-3" href="#">
+                <img src="image/semfundoecono.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../home/index.html">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ANUNCIOS -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-3">
+                <!-- Anúncio 1 -->
+                <br><br>
+
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a href="investimentos.html" class="btn btn-link btn-anuncio card-title">Como investir
+                                <br>o dinheiro que sobra?
+                            </a>
+                        </h5>
+                        <p>Saiba como investir mesmo com pouco dinheiro. Mude sua vida para sempre.</p>
+                    </div>
+                </div>
+
+                <br><br><br>
+
+                <!-- Anúncio 2 -->
+                <!-- Anúncio 2 -->
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a href="sobrardinh.html" class="btn btn-link btn-anuncio card-title">Como poupar
+                                dinheiro no fim do mês?</a>
+                        </h5>
+                        <p>Como sobrar dinheiro no fim do mês e não ficar com divídas.</p>
+                    </div>
+                </div>
+
+                <br><br><br>
+                <!-- Anúncio 3 -->
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a href="investimentos.html" class="btn btn-link btn-anuncio card-title">Melhores
+                                investimentos para iniciantes</a>
+                        </h5>
+                        <p>Como investir seu dinheiro,e um passo a passo para iniciantes.</p>
+                    </div>
+                </div>
+                <br><br><br>
+                <!-- Anúncio 4 -->
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a href="educacfi.html" class="btn btn-link btn-anuncio card-title">Educação
+                                Financeira faz mudanças na vida</a>
+                        </h5>
+                        <p>Entenda educação finançeira e não se preocupe mais com as dívidas ao longo da vida.</p>
+                    </div>
+                </div>
+                <br><br><br>
+                <!-- Anúncio 5 -->
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a href="appsesitesinves.html" class="btn btn-link btn-anuncio card-title">Controle seus
+                                gastos diários com apps</a>
+                        </h5>
+                        <p>Veja apps e sites para gerenciar suas divídas e controlar seus gastos.</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <!-- Main Content -->
+            <div class="col-md-9">
+                <br><br>
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <h2 class="card-title-main">Como ter um melhor controle financeiro e acabar com as dívidas no cartão? </h2>
+                            <span class="favorite-button" onclick="toggleFavorite(this)">
+                                <svg class="favorite-icon" data-id="4" data-description="Dividas Cartão" data-url="/TIAW/TIAW/artigo-telas/divcartao.html" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 3.905C2.864 8.905 6.377 12 8 13.481c1.623-1.481 5.136-4.576 6.286-6.523.955-1.405.838-2.882.314-3.905C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.278-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.722-3.04 23.333 4.867 8 15z"/>
+                                </svg>
+                            </div>
+                            <div id="login-alert" class="alert alert-warning" role="alert" style="display:none;">
+                                É necessário estar logado para favoritar o artigo. <a href="../login/loginpage.html" class="alert-link">Clique aqui para fazer login</a>.
+                            </div>
+
+                        <div class="article-content">
+                            <p>As dívidas de cartão de crédito podem ser uma das mais difíceis de se livrar, devido aos
+                                altos juros e à facilidade de acumular saldos. Neste artigo, vamos explorar estratégias
+                                eficazes para ajudá-lo a pagar suas dívidas de cartão de crédito de forma eficiente e
+                                evitar armadilhas no futuro.</p>
+                            <img src="https://blu365.com.br/blog/wp-content/uploads/sites/4/2023/11/divida-de-cartao-de-credito.png"
+                                class="img-fluid mb-3" alt="Eliminando Dívidas de Cartão de Crédito">
+
+                            <h3>01 Avalie Sua Situação Financeira</h3>
+                            <p>O primeiro passo para lidar com dívidas de cartão de crédito é entender a extensão do seu
+                                problema financeiro. Faça uma lista de todos os seus cartões, incluindo os saldos
+                                devedores, taxas de juros e os pagamentos mínimos mensais.</p>
+                            <p>Essa avaliação lhe dará uma visão clara de sua dívida total e ajudará a planejar sua
+                                estratégia de pagamento.</p>
+
+                            <h3>02 Estabeleça um Orçamento</h3>
+                            <p>Crie um orçamento detalhado que inclua todas as suas fontes de renda e despesas.
+                                Identifique áreas onde você pode cortar gastos e redirecionar esses fundos para pagar
+                                suas dívidas.</p>
+                            <p>Mantenha seu orçamento atualizado e ajuste-o conforme necessário para maximizar os
+                                pagamentos das dívidas.</p>
+
+                            <h3>03 Priorize as Dívidas com Maiores Juros</h3>
+                            <p>Concentre-se primeiro em pagar os cartões de crédito com as taxas de juros mais altas.
+                                Isso ajudará a reduzir os custos totais de juros ao longo do tempo. Continue fazendo
+                                pagamentos mínimos em outros cartões enquanto direciona fundos extras para os cartões
+                                com juros mais altos.</p>
+
+                            <h3>04 Considere Transferências de Saldo</h3>
+                            <p>Se você tiver um bom histórico de crédito, pode se qualificar para um cartão de crédito
+                                com uma taxa de juros mais baixa ou uma promoção de transferência de saldo a 0%.
+                                Transfira seus saldos para esse cartão para reduzir os juros acumulados.</p>
+                            <p>Certifique-se de ler os termos e condições e evite acumular novas dívidas no novo cartão.
+                            </p>
+
+                            <h3>05 Negocie com Seus Credores</h3>
+                            <p>Entre em contato com seus credores e solicite uma redução das taxas de juros ou melhores
+                                condições de pagamento. Muitos credores estão dispostos a negociar para evitar a
+                                inadimplência.</p>
+                            <p>Explique sua situação financeira e seja claro sobre seu compromisso em pagar a dívida.
+                            </p>
+
+                            <h3>06 Considere um Empréstimo Pessoal</h3>
+                            <p>Empréstimos pessoais geralmente têm taxas de juros mais baixas do que cartões de crédito.
+                                Você pode usar um empréstimo pessoal para consolidar suas dívidas de cartão de crédito
+                                em um pagamento único com uma taxa de juros fixa.</p>
+                            <p>Certifique-se de que a taxa de juros do empréstimo é menor do que a média das taxas de
+                                seus cartões.</p>
+
+                            <h3>07 Use a Estratégia de Pagamento em Bola de Neve</h3>
+                            <p>Outra abordagem é a estratégia de pagamento em bola de neve, onde você paga primeiro o
+                                cartão com o saldo menor. Uma vez que esse saldo esteja pago, você direciona esses
+                                pagamentos para o próximo menor saldo, e assim por diante.</p>
+                            <p>Essa abordagem pode proporcionar uma sensação de progresso e motivação.</p>
+
+                            <img src="https://www.proteste.org.br/-/media/proteste/images/dividas-cartao.png?rev=effc4160-2bf6-4417-8705-2301a77bb637"
+                                class="img-fluid mb-3" alt="Estratégia de Pagamento em Bola de Neve">
+
+                            <h3>08 Evite Usar os Cartões de Crédito</h3>
+                            <p>Para evitar aumentar suas dívidas, pare de usar seus cartões de crédito enquanto trabalha
+                                para pagar seus saldos. Use dinheiro ou um cartão de débito para suas despesas diárias e
+                                considere guardar seus cartões de crédito em um lugar seguro, longe do alcance.</p>
+
+                            <h3>09 Procure Orientação Financeira</h3>
+                            <p>Se suas dívidas estiverem fora de controle, procure a ajuda de um consultor financeiro ou
+                                de um serviço de aconselhamento de crédito. Eles podem ajudar a criar um plano de
+                                pagamento personalizado e oferecer orientação sobre como evitar problemas de dívidas no
+                                futuro.</p>
+
+                            <h3>10 Eduque-se sobre Finanças</h3>
+                            <p>Aprender mais sobre gestão financeira pode ajudá-lo a evitar cair na armadilha das
+                                dívidas novamente. Leia livros, participe de workshops ou siga blogs e podcasts sobre
+                                finanças pessoais para aumentar seu conhecimento e habilidades.</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+
+            </div>
+
+            <!-- More Recommendations -->
+            <h3 class="mt-4" style="font-size: 2rem;text-align: center;">Veja também:</h3>
+            <br>
+            <div class="recommendations">
+                <div class="recommendation-card card">
+                    <img src="https://universo.uniateneu.edu.br/wp-content/uploads/2023/04/Qualidade-de-vida-no-trabalho-2048x952.jpg"
+                        class="card-img-top" alt="Investimento">
+                    <div class="card-body">
+                        <h5 class="card-title">Acabe com suas dívidas para sempre!</h5>
+                        <p class="card-text">Acabe com as divídas e despesas diárias e melhore sua qualidade de vida.
+                        </p>
+                        <a href="divcartao.html" class="btn btn-primary">Leia mais</a>
+                    </div>
+                </div>
+                <div class="recommendation-card card">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAcUAin9gWKEZm4MwMtD3XMJolCaZPL61vyy78-58ynhTcj7hkzjm50Pr0pGIoV1xDNUtrA3kOMlsXpmgLdwUlsgPlAauE9USvvfETYrVyYibOsEMicgoMKg45E3v8nH8kHgnqtOnXPYc/s1600/como+investir+com+pouco+dinheiro.jpg"
+                        class="card-img-top" alt="Economia">
+                    <div class="card-body">
+                        <h5 class="card-title">Invista seu dinheiro e mude de vida</h5>
+                        <p class="card-text">Saiba como investir do zero e ganhar aquela renda extra no fim do mês.</p>
+                        <a href="investimentos.html" class="btn btn-primary">Leia mais</a>
+                    </div>
+                </div>
+                <div class="recommendation-card card">
+                    <img src="https://d1ih8jugeo2m5m.cloudfront.net/2023/10/apps-financas-pessoais1.jpg"
+                        class="card-img-top" alt="Mercado">
+                    <div class="card-body">
+                        <h5 class="card-title">Descubra os melhores apps para controlar suas finanças</h5>
+                        <p class="card-text">Os melhores apps de 2024 para controlar suas dispesas.</p>
+                        <a href="appsesitesinves.html" class="btn btn-primary">Leia mais</a>
+                    </div>
+                </div>
+                <div class="recommendation-card card">
+                    <img src="https://trabalhador.pt/wp-content/uploads/2021/07/como-poupar-dinheiro.jpg"
+                        class="card-img-top" alt="Criptomoedas">
+                    <div class="card-body">
+                        <h5 class="card-title">Como sobrar dinheiro e o que fazer com ele?</h5>
+                        <p class="card-text">Descubra dicas para sobrar aquela graniha no fim do mês e sair das dívidas.
+                        </p>
+                        <a href="sobrardinh.html" class="btn btn-primary">Leia mais</a>
+                    </div>
+                </div>
+                <div class="recommendation-card card">
+                    <img src="https://www.lumecep.com.br/wp-content/uploads/2018/09/Controle_financeiro.jpg"
+                        class="card-img-top" alt="Tecnologia Financeira">
+                    <div class="card-body">
+                        <h5 class="card-title">Educação financeira na prática</h5>
+                        <p class="card-text">Conheça como aplicar a educação finançeira na sua vida hoje mesmo.</p>
+                        <a href="educacfi.html" class="btn btn-primary">Leia mais</a>
+                    </div>
+                </div>
+                <div class="recommendation-card card">
+                    <img src="https://dicasparapoupar.com.br/wp-content/uploads/2021/11/Financas-pessoais.jpg"
+                        class="card-img-top" alt="Economia Sustentável">
+                    <div class="card-body">
+                        <h5 class="card-title">Calculadora Financeira da Economicamente</h5>
+                        <p class="card-text">Acesse nossa calculadora de investimentos no nosso site na página
+                            principal.</p>
+                        <a href="#" class="btn btn-primary">Vá para nossa página</a>
+                        <!-- LINK PARA PAG SARAH -->
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white mt-4">
+        <div class="container p-4">
+            <section class="mb-4">
+                <p style="font-style: bold; font-family: Arial, Helvetica, sans-serif;">
+                    Saiba mais:
+                </p>
+                <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/ICEI-PUC-Minas-PBR-ADS/pbr-ads-2024-1-1-ti-aw-t1-pbr-ads-2024-1-1-aw-economicamente" role="button" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            </section>
+            <section class="footer-links">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Acesse:</h5>
+                        <ul class="list-unstyled mb-0">
+                            <li><a href="/TIAW/TIAW/home/index.html" class="text-white">Página inicial</a></li>
+                            <li><a href="/TIAW/TIAW/Ebook_Favoritos/Favoritos.html" class="text-white">Favoritos</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Veja também:</h5>
+                        <ul class="list-unstyled mb-0">
+                            <li><a href="sobrardinh.html" class="text-white">Como Poupar</a></li>
+                            <li><a href="investimentos.html" class="text-white">Investimentos</a></li>
+                            <li><a href="educacfi.html" class="text-white">Educação Financeira</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Registre-se:</h5>
+                        <ul class="list-unstyled mb-0">
+                            <li><a href="/TIAW/TIAW/tela_cadatsro/index.html" class="text-white">Cadastre-se</a></li>
+                            <li><a href="/TIAW/TIAW/login/loginpage.html" class="text-white">Login</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Contatos:</h5>
+                        <ul class="list-unstyled mb-0">
+                            <li><a href="#" class="text-white">Email</a></li>
+                            <li><a href="#" class="text-white">+55(31) 8547-4123
+
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(182, 236, 195, 0.89); color: black; font-family: Arial, Helvetica, sans-serif; font-size: 17px;">
+            © 2024 Economicamente
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const currentUserId = localStorage.getItem('currentUserId');
+            const users = JSON.parse(localStorage.getItem('users')) || [];
+            const userFavorites = JSON.parse(localStorage.getItem('userFavorites')) || {};
+
+            function getUserEmailById(userId) {
+                const user = users.find(user => user.id == userId);
+                return user ? user.email : null;
+            }
+
+            function addToUserFavorites(userId, article) {
+                const userEmail = getUserEmailById(userId);
+                if (!userEmail) return;
+
+                if (!userFavorites[userEmail]) {
+                    userFavorites[userEmail] = [];
+                }
+
+                const userArticleExists = userFavorites[userEmail].find(item => item.id === article.id);
+
+                if (!userArticleExists) {
+                    userFavorites[userEmail].push(article);
+                    localStorage.setItem('userFavorites', JSON.stringify(userFavorites));
+                }
+            }
+
+            function removeFromUserFavorites(userId, articleId) {
+                const userEmail = getUserEmailById(userId);
+                if (!userEmail) return;
+
+                userFavorites[userEmail] = userFavorites[userEmail].filter(item => item.id !== articleId);
+                localStorage.setItem('userFavorites', JSON.stringify(userFavorites));
+            }
+
+            function setupFavoriteIconClickListener() {
+                document.querySelectorAll('.favorite-icon').forEach(icon => {
+                    icon.addEventListener('click', function () {
+                        if (!currentUserId) {
+                            document.getElementById('login-alert').style.display = 'block';
+                            return;
+                        }
+
+                        this.classList.toggle('filled');
+                        const isFilled = this.classList.contains('filled');
+                        const articleId = this.getAttribute('data-id');
+                        const articleDescription = this.getAttribute('data-description');
+                        const articleUrl = this.getAttribute('data-url');
+
+                        const article = {
+                            id: articleId,
+                            description: articleDescription,
+                            url: articleUrl
+                        };
+
+                        if (isFilled) {
+                            addToUserFavorites(currentUserId, article);
+                        } else {
+                            removeFromUserFavorites(currentUserId, articleId);
+                        }
+                    });
+                });
+            }
+
+            function checkInitialFavoriteState() {
+                if (!currentUserId) return;
+
+                const userEmail = getUserEmailById(currentUserId);
+                if (!userEmail) return;
+
+                const favorites = userFavorites[userEmail] || [];
+                favorites.forEach(article => {
+                    document.querySelectorAll(`.favorite-icon[data-id='${article.id}']`).forEach(icon => {
+                        icon.classList.add('filled');
+                    });
+                });
+            }
+
+            setupFavoriteIconClickListener();
+            checkInitialFavoriteState();
+        });
+    </script>
+</body>
+
+</html>

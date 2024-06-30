@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade com Colunas de Cards</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Assets/css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"> <!-- Certifique-se de que este link está correto -->
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top custom-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand me-3" href="#">
+                <img src="img/image.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../home/index.html">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container mt-5 pt-4">
+        <div class="d-flex align-items-center">
+            <h2 class="mt-4">Cursos e E-books</h2>
+            <i class="far fa-heart ms-3 favorite-icon" data-id="2" data-description="Artigo de Ebooks e Cursos" data-url="/TIAW/TIAW/Ebook_Favoritos/Artigos.html" id="favorite-icon" style="cursor: pointer;"></i>
+        </div>
+        <div id="login-alert" class="alert alert-warning" role="alert" style="display:none;">
+            É necessário estar logado para favoritar o artigo. <a href="../login/loginpage.html" class="alert-link">Clique
+                aqui para fazer login</a>.
+        </div>
+        <div id="tela" class="row mt-4"></div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="Assets/js/script.js"></script>
+</body>
+</html>

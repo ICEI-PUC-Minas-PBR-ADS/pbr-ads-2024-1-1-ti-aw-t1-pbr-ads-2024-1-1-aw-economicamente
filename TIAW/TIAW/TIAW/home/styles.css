@@ -1,0 +1,415 @@
+body {
+  padding-top: 56px; /* Espaço para a navbar fixa */
+  background: linear-gradient(45deg, #6a0dad, #53d6b0, #ff6f61);
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Animação do gradiente */
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Estilo da barra lateral */
+.sidebar {
+  position: fixed;
+  top: 56px;
+  left: -250px; /* Esconde a sidebar fora da tela */
+  width: 250px;
+  height: calc(100% - 56px); /* Altura ajustada para ocupar a tela inteira menos a navbar */
+  background-color: #333;
+  padding-top: 20px;
+  overflow-y: auto; /* Adiciona barra de rolagem vertical */
+  transition: all 0.3s; /* Animação suave ao mostrar/esconder */
+  z-index: 1000;
+}
+
+/* Estilo para quando a barra lateral está ativa (visível) */
+.sidebar.active {
+  left: 0;
+}
+
+/* Estilo da imagem do logo na navbar */
+.navbar-brand img {
+  max-height: 40px;
+}
+
+/* Estilo personalizado do carrossel */
+.custom-carousel {
+  position: relative;
+  margin-top: 20px;
+}
+
+/* Estilo das imagens do carrossel */
+.custom-carousel .carousel-item img {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover; /* Ajusta a imagem para cobrir a área */
+  transition: transform 0.5s ease, filter 0.5s ease; /* Animações */
+}
+
+/* Estilo do botão dentro do carrossel */
+.carousel-caption .btn.custom-btn {
+  background-color: #6866e1;
+  border-color: black;
+  font-size: 1.5rem; /* Tamanho da fonte maior */
+  padding: 1rem 2rem; /* Preenchimento para aumentar o botão */
+}
+
+/* Estilo do botão ao passar o mouse */
+.carousel-caption .btn.custom-btn:hover {
+  background-color: #53d6b0;
+  border-color: black;
+}
+
+/* Estilo dos títulos h2 */
+h2 {
+  margin: 0 0 10px 0;
+  font-size: 20px;
+}
+
+/* Estilo dos parágrafos */
+p {
+  margin: 0;
+  font-size: 16px;
+}
+
+/* Estilo do container principal */
+.container {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+  max-width: 700px;
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  background-image: url('./imagem/calculadora.jpg'); /* Imagem de fundo */
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+/* Estilo do título principal */
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Estilo dos grupos de formulário */
+.form-group {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Estilo dos labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Estilo dos inputs, selects e buttons */
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Estilo do placeholder dos inputs */
+input::placeholder {
+  color: black;
+}
+
+/* Estilo dos botões */
+button {
+  background: #6866e1;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease; /* Animação de transição */
+}
+
+/* Estilo dos botões ao passar o mouse */
+button:hover {
+  background: #5754d1;
+}
+
+/* Estilo da seção de resultados (inicialmente escondida) */
+#result {
+  margin-top: 20px;
+  display: none;
+}
+
+/* Estilo dos títulos h2 dentro da seção de resultados */
+#result h2 {
+  margin-bottom: 10px;
+  color: black;
+}
+
+/* Estilo das tabelas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Estilo das tabelas, cabeçalhos e células */
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Estilo dos elementos canvas */
+canvas {
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+/* Estilo do wrapper de cartões */
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  background: linear-gradient(45deg,  #6a0dad, #53d6b0, );
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+  position: relative;
+  margin-top: 20px;
+}
+
+/* Estilo dos cartões individuais */
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra */
+  margin: 10px;
+  padding: 20px;
+  width: 250px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animações */
+  text-align: center;
+}
+
+/* Estilo dos cartões ao passar o mouse */
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra mais intensa */
+}
+
+/* Estilo dos títulos h3 dentro dos cartões */
+.card h3 {
+  margin-top: 10px;
+  font-size: 1.5em;
+}
+
+/* Estilo dos parágrafos dentro dos cartões */
+.card p {
+  color: #666;
+}
+
+/* Estilo das imagens dentro dos cartões */
+.card-img-top {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+/* Estilo dos botões de vídeo dentro dos cartões */
+.video-button {
+  background-color: #6866e1;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1em;
+  margin-top: 10px;
+  transition: background-color 0.3s ease; /* Animação de transição */
+}
+
+/* Estilo dos botões de vídeo ao passar o mouse */
+.video-button:hover {
+  background-color: #5754d1;
+}
+
+/* Estilo do rodapé */
+.footer {
+  background-color: #2c3e50; /* Cor de fundo do rodapé */
+  color: #ecf0f1; /* Cor do texto */
+  padding: 20px 0; /* Espaçamento interno no topo e na base */
+  display: flex; /* Flexbox para layout flexível */
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  align-items: center; /* Centraliza os itens verticalmente */
+  text-align: center; /* Centraliza o texto */
+}
+
+/* Contêiner interno do rodapé */
+.footer .container1 {
+  display: flex; /* Flexbox para layout flexível */
+  justify-content: space-between; /* Espaça os itens igualmente */
+  align-items: center; /* Centraliza os itens verticalmente */
+  width: 100%; /* Largura total */
+  max-width: 1200px; /* Largura máxima do contêiner */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  padding: 0 15px; /* Espaçamento interno nas laterais */
+}
+
+/* Seções de informações e GIF */
+.footer .info,
+.footer .gif {
+  flex: 1; /* Flexível para ocupar espaço igualmente */
+  margin: 0 10px; /* Margem lateral */
+}
+
+/* Estilo da seção de informações */
+.footer .info {
+  padding-right: 20px; /* Espaçamento interno à direita */
+}
+.footer .info h3 {
+  font-size: 1.5em; /* Tamanho da fonte */
+  margin-bottom: 10px; /* Espaçamento inferior */
+  color: white; /* Cor do texto */
+}
+.footer .info p,
+.footer .info a {
+  font-size: 1em; /* Tamanho da fonte */
+  color: #bdc3c7; /* Cor do texto */
+  text-decoration: none; /* Remove sublinhado dos links */
+  margin-bottom: 5px; /* Espaçamento inferior */
+}
+.footer .info a:hover {
+  color: white; /* Cor do texto ao passar o mouse */
+}
+
+/* Estilo da imagem GIF */
+.footer .gif img {
+  max-width: 50%; /* Largura máxima */
+  height: 50%; /* Altura automática para manter proporção */
+}
+
+/* Seção de logo */
+.footer .logo {
+  text-align: center; /* Centraliza o texto */
+  padding-left: 20px; /* Espaçamento interno à esquerda */
+}
+.footer .logo img {
+  max-width: 150px; /* Largura máxima */
+  height: auto; /* Altura automática para manter proporção */
+}
+
+/* Ícones de redes sociais */
+.footer .social-icons {
+  display: flex; /* Flexbox para layout flexível */
+  justify-content: center; /* Centraliza os ícones */
+  gap: 20px; /* Espaçamento entre ícones */
+  margin-top: 10px; /* Espaçamento superior */
+}
+.footer .social-icons a {
+  color: #bdc3c7; /* Cor dos ícones */
+  font-size: 1.5em; /* Tamanho da fonte dos ícones */
+}
+.footer .social-icons a:hover {
+  color: white; /* Cor dos ícones ao passar o mouse */
+}
+
+/* Container para cotação em tempo real */
+.container4 {
+  width: 80%;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+  margin-bottom: 50px; 
+}
+
+/* Título da seção de preços em tempo real */
+h3 {
+  text-align: center;
+  color: white;
+}
+
+/* Estilo dos botões */
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Animação de transição */
+}
+
+/* Estilo dos botões ao passar o mouse */
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo das tabelas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border-color: #222;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Estilo das linhas ao passar o mouse */
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Estilo dos logos das criptomoedas */
+.crypto-logo {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+/* Estilo do botão para buscar preços */
+.btn-fetch-prices {
+  display: inline-block;
+  margin: 10px auto;
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #6a0dad;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Animações */
+}
+
+/* Estilo do botão ao passar o mouse */
+.btn-fetch-prices:hover {
+  background-color: red;
+  transform: scale(1.1); /* Aumenta o botão */
+}
