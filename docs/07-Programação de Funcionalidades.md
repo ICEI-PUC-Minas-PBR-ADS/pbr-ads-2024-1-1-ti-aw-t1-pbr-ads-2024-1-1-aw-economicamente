@@ -48,3 +48,5 @@ Formulário de Registro: Campos para "Nome", "Email", "Senha", e "Data de Nascim
 Opção para o usuário aceitar os termos de serviço.
 Botão de Cadastro: Para submeter o formulário e criar uma nova conta.
 
+#### code favoritos
+![Diagrama de Componentes](img/req-fun.PNG)
